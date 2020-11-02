@@ -2,10 +2,22 @@
 	padding: 0;
 	margin: 0;
 	font-family: sans-serif;
+	box-sizing: border-box;
 }
 a {
 	color: inherit;
 	text-decoration: none;
+}
+main{
+	overflow: auto;
+}
+footer{
+	text-align: center;
+	font-weight: bold;
+	background-color: #04B4AE;
+	color: #f4f6ff;
+	margin-top: 100px;
+	padding: 20px;
 }
 .medsos {
 	padding: 5px 0;
@@ -86,4 +98,209 @@ section h3 {
 	color: #666;
 	word-spacing: 2px;
 	line-height: 25px;
+}
+
+
+/* ---------------------------------------------------------------------------------*/
+/* JAYA */
+.bg-kelas{
+	background-color: #04B4AE;
+}
+.search-box{
+	margin-bottom: 70px;
+}
+.search-box input{
+  	margin-left: 100px;
+  	padding: 10px;
+  	font-size: 17px;
+  	border: 1px solid grey;
+  	float: left;
+  	width: 70%;
+  	background: #fff;
+}
+.search-box button {
+  	float: left;
+  	margin-left:10px;
+  	width: 15%;
+  	padding: 10px;
+  	background: #f1f1f1;
+  	color: black;
+  	border: none;
+  	font-size: 17px;
+  	cursor: pointer;
+}
+.search-box button:hover {
+  	background: #04B4AE;
+  	color: white;
+}
+.search-box::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+.search-box h2{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	color: #fff;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+	text-align: center;
+}
+.search-box p{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 70px;
+}
+.column {
+	float: left; 
+	width: 25%;
+  	padding: 20px 30px;
+}
+.card {
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #fff;
+}
+.card-container {
+  	text-align: center;
+  	padding: 10px 20px;
+}
+.card h1,h3{
+	font-family: sans-serif;
+	text-align: center;
+	color: black;
+}
+.card p{
+	padding-top: 30px;
+	text-align: right;
+	color: #04B4AE;
+}
+.card img{
+	align-items: center;
+	height: 200px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header-kelas{
+	padding: 50px;
+	height: 550px;
+}
+.header-kelas img{
+	align-items: center;
+	width: 350px;
+	height: 400px;
+	margin: 25px 25px;
+}
+.header-kelas .card{
+	float: left;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #fff;
+	width: 400px;
+	height: 450px;
+}
+.keterangan-kelas{
+	margin-left: 400px;
+	padding: 50px 30px;
+}
+.keterangan-kelas p{
+	color: #04B4AE;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.judul-kelas{
+	max-width: 500px;
+	width: 500px;
+	margin-bottom: 30px;
+	color: #04B4AE;
+	padding: 20px 25px;
+	border: 3px solid #04B4AE;
+	text-align: center;
+}
+.daftar-kelas{
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: 400;
+	border: 3px solid #04B4AE;
+	cursor: pointer;
+	color: #04B4AE;
+	font-weight: 500;
+	border-radius: 100px;
+	background-color: #fff;
+}
+.daftar-kelas:hover{
+	color: #fff;
+	background-color: #04B4AE;
+}
+#content-kelas{
+	float: left;
+	width: 65%;
+}
+#content-kelas .card{
+	margin-left: 50px;
+	box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.silabus{
+	background-color: #04B4AE;
+	height: 100px;
+	padding: 30px;
+	color: #fff;
+	font-size: 20px;
+}
+.deskripsi-silabus{
+	padding: 30px;
+}
+.deskripsi-silabus p{
+	text-align: left;
+	color: black;
+}
+#aside{
+	float: left;
+	width: 35%;
+}
+#aside .card{
+	margin-left: 20px;
+	margin-right: 50px;
+	box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+#aside header{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#aside img {
+   	width: 200px;
+   	margin-top: 20px;
+}
+#aside .biodata{
+	padding: 10px 20px;
+}
+#aside .biodata h3{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+#aside .biodata th,td{
+	padding: 10px;
+}
+.berhasil-kelas{
+	border: 1px solid black;
+	padding: 50px;
+	margin: 20px;
+	height: 500px;
+	text-align: center;
+}
+.berhasil-kelas h1{
+	
+	font-size: 100px;
+	margin-bottom: 50px;
 }
