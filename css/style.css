@@ -102,12 +102,13 @@ section h3 {
 
 
 /* ---------------------------------------------------------------------------------*/
-/* JAYA */
+/* SEDANA WIJAYA */
+/* CSS LAMAN KELAS */
 .bg-kelas{
 	background-color: #04B4AE;
 }
 .search-box{
-	margin-bottom: 70px;
+	margin-bottom: 90px;
 }
 .search-box input{
   	margin-left: 100px;
@@ -124,6 +125,7 @@ section h3 {
   	width: 15%;
   	padding: 10px;
   	background: #f1f1f1;
+  	border-radius: 25px;
   	color: black;
   	border: none;
   	font-size: 17px;
@@ -131,6 +133,7 @@ section h3 {
 }
 .search-box button:hover {
   	background: #04B4AE;
+  	border: 2px solid #fff;
   	color: white;
 }
 .search-box::after {
@@ -292,15 +295,107 @@ section h3 {
 #aside .biodata th,td{
 	padding: 10px;
 }
-.berhasil-kelas{
-	border: 1px solid black;
-	padding: 50px;
-	margin: 20px;
-	height: 500px;
-	text-align: center;
+/* CSS LAMAN BUKU */
+#aside-buku{
+	float: left;
+	width: 20%;
+	background-color: #04B4AE;
+	color: white;
+	padding: 40px;
+	height: 1100px;
+	max-height: 100%;
+	margin-top: 0;
 }
-.berhasil-kelas h1{
-	
-	font-size: 100px;
-	margin-bottom: 50px;
+.buku-checkbox{
+	padding-top: 20px;
+}
+#aside-buku h2{
+	text-align: center;
+	font-weight: 400;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid white;
+}
+#content-buku{
+	float: left;
+	width: 80%;
+}
+#content-buku h1{
+	margin: 50px;
+	text-align: center;
+	color: #04B4AE;
+}
+.buku-search{
+	margin-bottom: 30px;
+}
+.buku-search input{
+  	margin-left: 100px;
+  	padding: 10px;
+  	font-size: 17px;
+  	border: 1px solid grey;
+  	float: left;
+  	width: 70%;
+  	background: #fff;
+}
+.buku-search button {
+  	float: left;
+  	margin-left:10px;
+  	width: 15%;
+  	padding: 10px;
+  	background: #f1f1f1;
+  	color: black;
+  	border-radius: 25px;
+  	border: none;
+  	font-size: 17px;
+  	cursor: pointer;
+}
+.buku-search button:hover {
+  	background: #04B4AE;
+  	color: white;
+}
+.buku-search::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+#content-buku .column{
+	float: left; 
+	width: 33%;
+}
+#content-buku .card-container {
+  	text-align: center;
+  	padding: 10px;
+}
+#content-buku .card img{
+	align-items: center;
+	height: 300px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.buku-page{
+	float: right;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	color: #fff;
+}
+.buku-page a{
+	margin-right: 20px;
+	padding: 10px;
+	background-color: #fff;
+	color: black;
+	border-radius: 15px;
+}
+.buku-page a:hover{
+	background-color: #04B4AE;
+	border-radius: 15px;
+	color: white;
+}
+.buku-footer{
+	border-top: 1px solid #fff;
+	margin-top: 0;
 }
