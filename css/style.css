@@ -302,7 +302,7 @@ section h3 {
 	background-color: #04B4AE;
 	color: white;
 	padding: 40px;
-	height: 1100px;
+	height: 1500px;
 	max-height: 100%;
 	margin-top: 0;
 }
@@ -319,6 +319,7 @@ section h3 {
 #content-buku{
 	float: left;
 	width: 80%;
+	padding: 20px;
 }
 #content-buku h1{
 	margin: 50px;
@@ -372,6 +373,32 @@ section h3 {
 	width: 250px;
 	margin-left: auto;
 	margin-right: auto;
+}
+#content-buku .card h3{
+	text-align: center;
+	margin: 10px;
+	color: #04B4AE;
+}
+
+#content-buku .card p{
+	font-size: 20px;
+	padding: 1px;	
+	text-align: right;
+	color: black;
+	margin: 20px;
+}
+#content-buku .card-container button{
+    padding: 20px;
+    border: 1px solid #fff;
+    background: #04B4AE;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 40px;
+    width: 150px;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
 .buku-page{
 	float: right;
